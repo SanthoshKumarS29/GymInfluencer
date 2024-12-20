@@ -1,5 +1,11 @@
 import React,{useState} from 'react'
-
+import blog1 from '/blog/blog2.jpg'
+import blog2 from '/blog/blog11.jpg'
+import blog3 from '/blog/blog13.jpg'
+import pple1 from '/hero/pple-2.png'
+import pple2 from '/hero/pple-1.png'
+import pple3 from '/hero/pple-3.png'
+import question from '/blog/Question.png'
 import { FaRegCalendar,FaPlus } from "react-icons/fa";
 
 const Blog = () => {
@@ -94,7 +100,7 @@ const Blog = () => {
             </div>
             <div className='flex flex-col lg:flex-row gap-5 my-10'>
                 <div className="relative">
-                    <img src="/blog/blog2.jpg" alt="images" className="w-full h-[300px] md:h-[400px] lg:h-auto object-cover" />
+                    <img src={blog1} alt="images" className="w-full h-[300px] md:h-[400px] lg:h-auto object-cover" />
                     <div className="absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full p-6 sm:p-4 md:p-8 lg:p-10">
                         <div className="flex flex-col justify-start gap-4">
                         <p className="bg-red-600 px-4 py-2 w-fit text-sm md:text-lg lg:text-xl">Exercise</p>
@@ -108,7 +114,7 @@ const Blog = () => {
                             </div>
                             <span className="hidden sm:block">|</span>
                             <div className="flex items-center gap-2">
-                            <img src="/hero/pple-2.png" alt="Benjamin" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
+                            <img src={pple1} alt="Benjamin" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
                             <p>Benjamin</p>
                             </div>
                         </div>
@@ -118,7 +124,7 @@ const Blog = () => {
 
                 <div className='space-y-9'>
                     <div className='relative'>
-                        <img src="/blog/blog11.jpg" alt="image" className='w-full h-[300px] md:h-[400px] lg:w-[840px] lg:h-auto'/>
+                        <img src={blog2} alt="image" className='w-full h-[300px] md:h-[400px] lg:w-[840px] lg:h-auto'/>
                         <div className="absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full p-6">
                         <div className="flex flex-col justify-start gap-2">
                         <p className="bg-red-600 px-4 py-2 w-fit text-sm">Weight loss</p>
@@ -132,7 +138,7 @@ const Blog = () => {
                             </div>
                             <span className="hidden sm:block">|</span>
                             <div className="flex items-center gap-2">
-                            <img src="/hero/pple-1.png" alt="Benjamin" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
+                            <img src={pple2} alt="Benjamin" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
                             <p>jessica</p>
                             </div>
                         </div>
@@ -140,7 +146,7 @@ const Blog = () => {
                     </div>
                     </div>
                     <div className='relative'>
-                        <img src="/blog/blog13.jpg" alt="image" className='w-full h-[300px] md:h-[400px] lg:w-[840px] lg:h-auto'/>
+                        <img src={blog3} alt="image" className='w-full h-[300px] md:h-[400px] lg:w-[840px] lg:h-auto'/>
                         <div className="absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full p-6">
                         <div className="flex flex-col justify-start gap-2">
                         <p className="bg-red-600 px-4 py-2 w-fit text-sm">Nutreint</p>
@@ -154,7 +160,7 @@ const Blog = () => {
                             </div>
                             <span className="hidden sm:block">|</span>
                             <div className="flex items-center gap-2">
-                            <img src="/hero/pple-3.png" alt="Benjamin" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
+                            <img src={pple3} alt="Benjamin" className="w-6 h-6 md:w-8 md:h-8 rounded-full" />
                             <p>David</p>
                             </div>
                         </div>
@@ -168,7 +174,7 @@ const Blog = () => {
         {/* Frequently Asked Questions */}
         <div>
             <div className='relative w-full overflow-hidden'>
-                <img src="/blog/Question.png" alt="Question" className="w-full h-[700px] object-cover" />
+                <img src={question} alt="Question" className="w-full h-[700px] object-cover" />
                 <div className="absolute inset-0 max-w-3xl mx-auto">
                     <h1  className="text-4xl lg:text-6xl text-center pt-16 pb-4 text-white">Frequently <br/>Asked Question</h1>
                     <div className='p-5'>

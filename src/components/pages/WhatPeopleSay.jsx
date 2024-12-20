@@ -2,6 +2,10 @@ import React from 'react';
 import { FaStar } from "react-icons/fa";
 import { LuPhone } from "react-icons/lu";
 import { TfiLocationPin } from "react-icons/tfi";
+import person1 from '/influncer/trainer4.jpg'
+import person2 from '/influncer/trainer1.jpg'
+import person3 from '/influncer/trainer2.jpg'
+import map from '/blog/Map.png'
 
 const WhatPeopleSay = () => {
   const testimonials = [
@@ -9,21 +13,21 @@ const WhatPeopleSay = () => {
       id: 1,
       name: "MichealField",
       role: "Software Engineer",
-      image: "/influncer/trainer4.jpg",
+      image: person1,
       text: "I love how user-friendly the app is. Logging workouts has never been easier!"
     },
     {
       id: 2,
       name: "David Leo",
       role: "Designer",
-      image: "/influncer/trainer1.jpg",
+      image: person2,
       text: "I've seen amazing results since using GymFluencer. The progress tracking feature keeps me motivated!"
     },
     {
       id: 3,
       name: "Angelia Jolie",
       role: "Model",
-      image: "/influncer/trainer2.jpg",
+      image: person3,
       text: "GymFluencer has transformed the way I work out. The rep counting feature is a game-changer!"
     }
   ];
@@ -97,7 +101,7 @@ const WhatPeopleSay = () => {
 
                   {/* Map Section */}
                   <div>
-                      <img src="/blog/Map.png" alt="Map" className="w-full h-[600px] object-contain rounded-lg shadow-lg"/>
+                      <img src={map} alt="Map" className="w-full h-[600px] object-contain rounded-lg shadow-lg"/>
                   </div>
               </div>
           </div>
