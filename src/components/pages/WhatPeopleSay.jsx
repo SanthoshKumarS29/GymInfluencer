@@ -6,6 +6,13 @@ import person1 from '/influncer/trainer4.jpg'
 import person2 from '/influncer/trainer1.jpg'
 import person3 from '/influncer/trainer2.jpg'
 import map from '/blog/Map.png'
+import contact1 from '/blog/blog10.jpg'
+import contact2 from '/blog/blog8.jpeg'
+import contact3 from '/blog/blog1.jpg'
+import contact4 from '/blog/blog6.jpg'
+import contact5 from '/blog/blog5.png'
+import contact6 from '/blog/blog9.png'
+import contact7 from '/blog/blog3.jpg'
 
 const WhatPeopleSay = () => {
   const testimonials = [
@@ -40,49 +47,49 @@ const WhatPeopleSay = () => {
             id: 1,
             name: "Physc Gym Nerul 24/7",
             phone: "+91 1234567890",
-            image: "/blog/blog10.jpg",
+            image: contact1,
             location: "Nerul, Navi Mumbai, Maharashtra, 400706"
           },
           {
             id: 2,
             name: "Iron Fitness",
             phone: "+91 1234567890",
-            image: "/blog/blog8.jpeg",
+            image: contact2,
             location: "Nerul, Navi Mumbai"
           },
           {
             id: 3,
             name: "Yuva Fitness",
             phone: "+91-22-0001-0211",
-            image: "/blog/blog1.jpg",
+            image: contact3,
             location: "Nerul, Navi Mumbai"
           },
           {
             id: 4,
             name: "Ozone The Gym",
             phone: "+91 1234567890",
-            image: "/blog/blog6.jpg",
+            image: contact4,
             location: "Nerul, Navi Mumbai"
           },
           {
             id: 5,
             name: "Edge Fitness Seawoods",
             phone: "+91 1234567890",
-            image: "/blog/blog5.png",
+            image: contact5,
             location: "Nerul, Navi Mumbai"
           },
           {
             id: 6,
             name: "The Square Gym",
             phone: "+91 1234567890",
-            image: "/blog/blog9.png",
+            image: contact6,
             location: "Nerul, Navi Mumbai"
           },
           {
             id: 7,
             name: "Arnolds Total Fitness",
             phone: "+91 1234567890",
-            image: "/blog/blog3.jpg",
+            image: contact7,
             location: "Nerul, Navi Mumbai"
           }
         ];
