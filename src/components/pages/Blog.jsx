@@ -123,7 +123,7 @@ const Blog = () => {
         {/* Frequently Asked Questions */}
         <div>
             <div className='relative w-full overflow-hidden'>
-                <img src={question} alt="Question" className="w-full h-[700px] object-cover" />
+                <img src={question} alt="Question" className="w-full h-[750px] object-cover" />
                 <div className="absolute inset-0 max-w-3xl mx-auto">
                     <h1  className="text-4xl lg:text-6xl text-center pt-16 pb-4 text-white">Frequently <br/>Asked Question</h1>
                     <div className='p-5'>

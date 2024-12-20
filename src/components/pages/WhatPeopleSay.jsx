@@ -6,6 +6,7 @@ import person1 from '/influncer/trainer4.jpg'
 import person2 from '/influncer/trainer1.jpg'
 import person3 from '/influncer/trainer2.jpg'
 import map from '/blog/Map.png'
+import bacgroundbg from '/blog/blog12.jpg'
 import contact1 from '/blog/blog10.jpg'
 import contact2 from '/blog/blog8.jpeg'
 import contact3 from '/blog/blog1.jpg'
@@ -13,6 +14,7 @@ import contact4 from '/blog/blog6.jpg'
 import contact5 from '/blog/blog5.png'
 import contact6 from '/blog/blog9.png'
 import contact7 from '/blog/blog3.jpg'
+
 
 const WhatPeopleSay = () => {
   const testimonials = [
@@ -97,7 +99,7 @@ const WhatPeopleSay = () => {
   return (
     <div>
       <div className="relative w-full overflow-hidden">
-        <img src="/blog/blog12.jpg"  alt="background"  className="w-full h-[600px] object-cover"/>
+        <img src={bacgroundbg}  alt="background"  className="w-full h-[600px] object-cover"/>
         
         <div className="absolute inset-0 bg-black/65">
           <h1 className="text-2xl lg:text-6xl text-center py-16 text-white">What People Say</h1>
