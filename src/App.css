@@ -1,0 +1,31 @@
+*{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.sliding-text-container {
+    display: inline-block;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.slider {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+
