@@ -23,7 +23,7 @@ Installation and Setup
 Clone the Repository:
 
 sh
-git clone https://github.com/yourusername/gymfluencer.git
+git clone (https://github.com/SanthoshKumarS29/GymInfluencer.git)
 cd gymfluencer
 Install Dependencies:
 
