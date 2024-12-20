@@ -35,6 +35,58 @@ const WhatPeopleSay = () => {
   // Double the testimonials array for seamless looping
   const doubledTestimonials = [...testimonials, ...testimonials];
 
+      const contact = [
+          {
+            id: 1,
+            name: "Physc Gym Nerul 24/7",
+            phone: "+91 1234567890",
+            image: "/blog/blog10.jpg",
+            location: "Nerul, Navi Mumbai, Maharashtra, 400706"
+          },
+          {
+            id: 2,
+            name: "Iron Fitness",
+            phone: "+91 1234567890",
+            image: "/blog/blog8.jpeg",
+            location: "Nerul, Navi Mumbai"
+          },
+          {
+            id: 3,
+            name: "Yuva Fitness",
+            phone: "+91-22-0001-0211",
+            image: "/blog/blog1.jpg",
+            location: "Nerul, Navi Mumbai"
+          },
+          {
+            id: 4,
+            name: "Ozone The Gym",
+            phone: "+91 1234567890",
+            image: "/blog/blog6.jpg",
+            location: "Nerul, Navi Mumbai"
+          },
+          {
+            id: 5,
+            name: "Edge Fitness Seawoods",
+            phone: "+91 1234567890",
+            image: "/blog/blog5.png",
+            location: "Nerul, Navi Mumbai"
+          },
+          {
+            id: 6,
+            name: "The Square Gym",
+            phone: "+91 1234567890",
+            image: "/blog/blog9.png",
+            location: "Nerul, Navi Mumbai"
+          },
+          {
+            id: 7,
+            name: "Arnolds Total Fitness",
+            phone: "+91 1234567890",
+            image: "/blog/blog3.jpg",
+            location: "Nerul, Navi Mumbai"
+          }
+        ];
+
   return (
     <div>
       <div className="relative w-full overflow-hidden">
@@ -80,7 +132,7 @@ const WhatPeopleSay = () => {
           <div className="max-w-7xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2">
                   <div className="flex flex-col overflow-y-scroll h-[600px]  gap-4">
-                  {testimonials.map((item, index) => (
+                  {contact.map((item, index) => (
                       <div key={index}>
                       <div className="w-full flex items-center gap-1 md:gap-4 hover:border-red-700 hover:bg-red-800 transition-all duration-300 rounded-lg">
                           <div className=''>

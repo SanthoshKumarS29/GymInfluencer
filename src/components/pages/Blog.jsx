@@ -9,57 +9,6 @@ import question from '/blog/Question.png'
 import { FaRegCalendar,FaPlus } from "react-icons/fa";
 
 const Blog = () => {
-    const testimonials = [
-        {
-          id: 1,
-          name: "Physc Gym Nerul 24/7",
-          phone: "+91 1234567890",
-          image: "/blog/blog10.jpg",
-          location: "Nerul, Navi Mumbai, Maharashtra, 400706"
-        },
-        {
-          id: 2,
-          name: "Iron Fitness",
-          phone: "+91 1234567890",
-          image: "/blog/blog8.jpeg",
-          location: "Nerul, Navi Mumbai"
-        },
-        {
-          id: 3,
-          name: "Yuva Fitness",
-          phone: "+91-22-0001-0211",
-          image: "/blog/blog1.jpg",
-          location: "Nerul, Navi Mumbai"
-        },
-        {
-          id: 4,
-          name: "Ozone The Gym",
-          phone: "+91 1234567890",
-          image: "/blog/blog6.jpg",
-          location: "Nerul, Navi Mumbai"
-        },
-        {
-          id: 5,
-          name: "Edge Fitness Seawoods",
-          phone: "+91 1234567890",
-          image: "/blog/blog5.png",
-          location: "Nerul, Navi Mumbai"
-        },
-        {
-          id: 6,
-          name: "The Square Gym",
-          phone: "+91 1234567890",
-          image: "/blog/blog9.png",
-          location: "Nerul, Navi Mumbai"
-        },
-        {
-          id: 7,
-          name: "Arnolds Total Fitness",
-          phone: "+91 1234567890",
-          image: "/blog/blog3.jpg",
-          location: "Nerul, Navi Mumbai"
-        }
-      ];
 
       const [openIndex, setOpenIndex] = useState(null);
 
